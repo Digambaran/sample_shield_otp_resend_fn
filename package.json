@@ -7,11 +7,12 @@
     "start": "node index.js --port=3000"
   },
   "type": "module",
-  "keywords": [],
+  "keywords": ["appblocks","neoito","mini-shield","otp"],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@appblocks/node-sdk": "https://github.com/appblocks-hub/node-sdk.git",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "nodemailer": "^6.8.0"
   }
 }
